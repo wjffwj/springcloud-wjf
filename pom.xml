@@ -17,6 +17,7 @@
         <module>eureka-server</module>
         <module>service-provider</module>
         <module>service-feign</module>
+        <module>service-api</module>
 
     </modules>
     <properties>
