@@ -7,6 +7,7 @@
     <groupId>com.wjf.springcloud</groupId>
     <artifactId>service-api</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>

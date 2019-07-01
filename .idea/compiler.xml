@@ -10,6 +10,7 @@
         <module name="service-api" />
         <module name="service-feign" />
         <module name="service-provider" />
+        <module name="user-module" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
