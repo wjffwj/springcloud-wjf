@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-@EnableFeignClients
+@EnableFeignClients(basePackages = {"com.wjf"})
 @ComponentScan(basePackages = {"com.wjf"})
 public class ServiceFeignApplication {
 

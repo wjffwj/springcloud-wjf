@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(name = "remoteTest1Service")
+@FeignClient(value = "${spring.application.name}")
 public interface RemoteTest1Service {
 
     @RequestMapping(value = "/ok", method = RequestMethod.GET)
