@@ -17,6 +17,8 @@ public class RemoteTestServiceImpl implements RemoteTestService {
     @Override
     @RequestMapping(value = "/hi", method = RequestMethod.GET)
     public String getHiFromRequest(String name) {
+
+        System.out.println(1111111);
         return "test ok";
     }
 }
